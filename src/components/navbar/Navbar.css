@@ -1,0 +1,35 @@
+.mainNav {
+    width: 1310px;
+    height: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "regular";
+}
+
+.titre {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.sack {
+    width: 10%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sack img {
+    width: 40px;
+    height: 40px;
+}
