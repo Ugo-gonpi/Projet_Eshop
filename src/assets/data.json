@@ -1,0 +1,74 @@
+[
+  {
+    "title":"Alien Poster",
+    "price": 60,
+    "link": "./img/AlienPoster.jpeg",
+    "quantity": 5
+  },
+  {
+    "title":"Django Unchained Poster",
+    "price": 50,
+    "link": "./img/DjangoPoster.jpeg",
+    "quantity": 5
+  },
+  {
+    "title":"Donnie Darko Poster",
+    "price": 40,
+    "link": "./img/DonniedarkoPoster.jpeg",
+    "quantity": 5
+  },
+  {
+    "title":"Matrix Poster",
+    "price": 55,
+    "link": "./img/matrixPoster.jpg",
+    "quantity": 5
+  },
+  {
+    "title":"Nightcrawler Poster",
+    "price": 50,
+    "link": "./img/NightcrawlerPoster.jpeg",
+    "quantity": 5
+  },
+  {
+    "title":"Blues Brothers Poster",
+    "price": 60,
+    "link": "./img/poster1.jpg",
+    "quantity": 5
+  },
+  {
+    "title":"Pulp Fiction Poster",
+    "price": 45,
+    "link": "./img/poster2.jpg",
+    "quantity": 5
+  },
+  {
+    "title":"Kill Bill Poster",
+    "price": 50,
+    "link": "./img/poster4.jpg",
+    "quantity": 5
+  },
+  {
+    "title":"The Dark Knight Poster",
+    "price": 60,
+    "link": "./img/poster5.jpg",
+    "quantity": 5
+  },
+  {
+    "title":"Saw X Poster",
+    "price": 30,
+    "link": "./img/poster6.jpg",
+    "quantity": 5
+  },
+  {
+    "title":"Taxi Driver Poster",
+    "price": 70,
+    "link": "./img/TaxidriverPoster.jpeg",
+    "quantity": 5
+  },
+  {
+    "title":"Whiplash Poster",
+    "price": 0,
+    "link": "./img/WhiplashPoster.jpeg",
+    "quantity": 5
+  }
+]
