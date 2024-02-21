@@ -1,8 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+
 import Card from './components/Card/Card'
 import Sidebar from './components/Sidebar/Sidebar'
 import Data from './assets/data.json'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
 
 //! IMAGES IMPORT: -----------------------------------
 import Alien from './assets/img/AlienPoste.jpeg'
@@ -19,6 +22,8 @@ import TaxiDriver from './assets/img/TaxidriverPoster.jpeg'
 import Whiplash from './assets/img/WhiplashPoster.jpeg'
 import Bin from './assets/img/bin.png'
 //!----------------------------------------------------
+
+
 
 function App() {
 
@@ -85,7 +90,9 @@ function App() {
   }
 
   return (
+
     <div className='App flex justify-center w-screen'>
+      <Navbar/>
       <Sidebar cart={cart} total={total} balance={balance} remove={remove} Bin={Bin}/>
       <div className='flex justify-between flex-wrap w-[70%] h-[auto] mt-[100px]'>
         {
@@ -115,7 +122,8 @@ function App() {
             )
           })
         }
-      </div>
+      </div> 
+      <Footer/>
     </div>
   )
 }
