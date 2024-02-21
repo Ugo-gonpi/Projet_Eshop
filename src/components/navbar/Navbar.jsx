@@ -7,13 +7,13 @@ const Navbar = () => {
         <div className='mainNav'>
 
             <div className='titre'>
-                <h1>Post Molen</h1>
+                <h1>Geek Poster</h1>
             </div>
 
             <div className='sack'>
                 <img src={bag} alt="" />
             </div>
-            
+
         </div>
     );
 }
