@@ -33,6 +33,7 @@ function App() {
   const [cart, setCart] = useState([])
   const [total, setTotal] = useState(0)
   const [balance, setBalance] = useState(500)
+  const [sidebarClicked, setSidebarClicked] = useState(true)
 
 
   let addToCart = (a, x, y, z) => {
@@ -91,10 +92,10 @@ function App() {
 
   return (
 
-    <div className='App flex justify-center w-screen'>
-      <Navbar/>
-      <Sidebar cart={cart} total={total} balance={balance} remove={remove} Bin={Bin}/>
-      <div className='flex justify-between flex-wrap w-[70%] h-[auto] mt-[100px]'>
+    <div className='App flex flex-col items-center justify-center w-full max-sm:w-[117%]'>
+      <Navbar SetSidebarClicked={setSidebarClicked} SidebarClicked={sidebarClicked} />
+      <Sidebar cart={cart} total={total} balance={balance} remove={remove} Bin={Bin} SidebarClicked={sidebarClicked}/>
+      <div className='flex justify-between flex-wrap w-[70%] h-[auto] mt-[100px] pt-[100px] pb-[70px]'>
         {
           Data.map((element, key) => {
             let title = element.title

@@ -15,10 +15,12 @@
     url("./fonts/Prompt-Light.ttf") format("truetype");
 }
 
+.body{
+  width: max-content;
+}
+
 .App {
   font-family: regular;
-  width: 100vw;
-  height: 100vh;
   padding: 0;
   margin: 0;
 }

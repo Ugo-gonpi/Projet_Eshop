@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
 
             <div className='copyright'>
-                <p>Tous droits sont réserver par :</p>
+                <p>Tous droits réservés à :</p>
                 <div className='textCop'>
                     <p>Jules Voiturier et Ugo Gonzalez Pinto</p> 
                     <img src={copyright} alt="" />

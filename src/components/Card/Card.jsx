@@ -2,10 +2,10 @@ import React from 'react';
 
 const Card = (props) => {
     return (
-        <div className={`w-[33.33%] aspect-[3/5] font-[light] text-center flex justify-center ${props.unclickable == true ? `pointer-events-none opacity-50`:``}`}>
+        <div className={`w-[33.33%] max-md:w-[50%] max-sm:w-[100%] aspect-[3/5] font-[light] text-center flex justify-center ${props.unclickable == true ? `pointer-events-none opacity-50`:``}`}>
             <div className='w-[90%]'>
                 <div className='w-[100%] h-[80%] bg-blue-300 rounded-[10px] overflow-hidden shadow-sm shadow-[#afafaf] relative group'>
-                    <div className={`bg-white h-[8%] min-h-8 w-[0px] absolute top-3 left-3 rounded-[5px] overflow-hidden flex justify-start items-center transition-all z-10 group-hover:w-[30%] group-hover:pl-3 ${props.quantity == 1 ? `bg-yellow-400`:``}`}>Left:  
+                    <div className={`bg-white h-[8%] min-h-8 w-[0px] absolute top-3 left-3 rounded-[5px] overflow-hidden flex justify-center items-center transition-all z-10 group-hover:w-[30%]  ${props.quantity == 1 ? `bg-yellow-400`:``}`}>Left:  
                         {props.quantity}
                     </div>
 

@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = (props) => {
 
     return (
-        <div className='fixed h-screen w-[30%] bg-[#eaeaea] z-20 right-0 pt-5 pl-5 pr-5 pb-5 flex flex-col gap-5 justify-between'>
+        <div className={`fixed h-screen w-[30%] max-md:w-[70%] pt-[112px] bg-[#eaeaea] z-[20] pl-5 pr-5 pb-5 flex flex-col gap-5 justify-between ${props.SidebarClicked == true ? `transition-all right-0 top-0 bottom-0 m-auto left-[100%]` : `transition-all right-0 top-0 left-[70%] max-sm:right-[0%] bottom-0 m-auto max-md:left-[30%]` }`}>
             <div className='flex flex-col gap-5 max-h-[80%] overflow-scroll'>
                 <div className='flex flex-col gap-5'>
                     {

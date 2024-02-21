@@ -2,17 +2,17 @@ import React from 'react';
 import './Navbar.css'
 import bag from './../../assets/bag.png'
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
-        <div className='mainNav'>
+        <div className='mainNav fixed top-0'>
 
             <div className='titre'>
                 <h1>Geek Poster</h1>
             </div>
 
-            <div className='sack'>
+            <button onClick={()=> props.SetSidebarClicked(!props.SidebarClicked)} className='sack transition-all hover:opacity-50'>
                 <img src={bag} alt="" />
-            </div>
+            </button>
 
         </div>
     );
